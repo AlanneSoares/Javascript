@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM - CreateElement</title>
+</head>
+<body>
+    <script>
+        // create a elemente 'image'
+        var img = document.createElement("img");
+        img.src="http://lorempixel.com/400/200/";
+
+        // create a element with attribute
+        var p = document.createElement("p");
+        p.setAttribute("id", "paragrafo");
+        p.innerText = "Olá mundo!";
+        p.click();
+        console.log(img, p)
+    </script>
+</body>
+</html>
